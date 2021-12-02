@@ -7,7 +7,29 @@ body {
 
 .grid-container {
     display: flex;
-    /* background-color: black; */
-    opacity: 0.5;
-    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.516);
+    margin: 100px;
+    padding: 20px;
+    border-radius: 5%;
+}
+.grid-item {
+    padding: 10px;
+}
+
+label{
+    color: rgba(255, 255, 255, 0.516);
+    opacity: 1;
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.516);
+}
+
+#saved_result{
+    border:1px solid black;
+    padding: 9px;
+}
+
+textbox{
+    width: 150px;
 }

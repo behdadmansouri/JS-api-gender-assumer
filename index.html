@@ -9,7 +9,7 @@
             <form class="grid-item" id="left">
                 <h2>Mr. or Ms.?</h2>
                 <label>Name</label>
-                <input type="text" class="tbox" maxlength="255">
+                <input type="text" class="textbox" maxlength="255">
                 <br>
                 <br>
                 <input type="radio" name="sex" id="male" value="Male"/>
@@ -20,10 +20,10 @@
                 <label>Female</label>
                 <br>
                 <br>
-                <button class="button button5" id="submit" onclick="submitfunc()">Submit</button>
+                <button id="submit" onclick="submitfunc()">Submit</button>
                 <br>
                 <br>
-                <button class="button button5" id="save" onclick="saveItem()">Save</button>
+                <button id="save" onclick="saveItem()">Save</button>
 
             </form>
             <div class="grid-item" id="right">
@@ -31,10 +31,13 @@
                     <h2>Prediction</h2>
                     <p id ="predictsex"></p>
                     <p id="prediction_number"></p>
+                    <br>
                 </div>
                 <div id="saved_result">
-                    <h2 id="saved_answer"></h2>
+                    <h2 id="saved_answer">Saved Answer</h2>
                     <p id="result_from_saved"></p>
+                    <br>
+                    <button id="clear" onclick="submitfunc()">Clear</button>
                 </div>
             </div>
         </div>
