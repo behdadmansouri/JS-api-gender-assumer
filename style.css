@@ -1,0 +1,13 @@
+body {
+    background: url(background.jpg) fixed center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: flex;
+    /* background-color: black; */
+    opacity: 0.5;
+    margin-top: 100px;
+}
