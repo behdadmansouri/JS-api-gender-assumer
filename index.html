@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" />
         <title> Male or Female </title>
         <link rel="stylesheet" href="style.css"/>
     </head>
@@ -20,10 +21,10 @@
                 <label>Female</label>
                 <br>
                 <br>
-                <button id="submit" onclick="submitfunc()">Submit</button>
+                <button id="submit" type="button" onclick="submitting()">Submit</button>
                 <br>
                 <br>
-                <button id="save" onclick="saveItem()">Save</button>
+                <button id="save" type="button" onclick="saving()">Save</button>
 
             </form>
             <div class="grid-item" id="right">
@@ -37,9 +38,11 @@
                     <h2 id="saved_answer">Saved Answer</h2>
                     <p id="result_from_saved"></p>
                     <br>
-                    <button id="clear" onclick="submitfunc()">Clear</button>
+                    <button id="clear" type="button" onclick="clearing()"">Clear</button>
                 </div>
+                <p id="alert"></p>
             </div>
         </div>
+        <script src="main.js"></script>
     </body>
 </html>

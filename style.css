@@ -1,3 +1,4 @@
+/* fill wallpaper, put content in the middle */
 body {
     background: url(background.jpg) fixed center;
     background-size: cover;
@@ -5,6 +6,7 @@ body {
     justify-content: center;
 }
 
+/* background, soft corners, padding and margin for the grid container */
 .grid-container {
     display: flex;
     background-color: rgba(0, 0, 0, 0.516);
@@ -12,10 +14,13 @@ body {
     padding: 20px;
     border-radius: 5%;
 }
+
+/* padding for the grid */
 .grid-item {
     padding: 10px;
 }
 
+/* white color for the texts */
 label{
     color: rgba(255, 255, 255, 0.516);
     opacity: 1;
@@ -25,11 +30,13 @@ h2{
     color: rgba(255, 255, 255, 0.516);
 }
 
+/* border and padding for the saved results part */
 #saved_result{
     border:1px solid black;
     padding: 9px;
 }
 
+/* a decent width for textbox */
 textbox{
     width: 150px;
 }
